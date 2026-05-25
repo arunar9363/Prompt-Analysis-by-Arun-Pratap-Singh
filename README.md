@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ CYBERPUNK DEVELOPER STORYTELLING PORTFOLIO ⚡
+### [ ARCHIVE CORE NODE // PRODUCTION-READY SYSTEM DEPLOYMENT ]
 
-## Getting Started
+An award-winning, immersive, full-stack developer portfolio built with Next.js 14+, Framer Motion, and Tailwind CSS. This system blends advanced cinematic scroll-based storytelling, modern motion systems, and rigid security standards into a high-performance digital environment running at a consistent 60FPS.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌌 SYSTEM OVERVIEW & ARCHITECTURE
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This platform is engineered using modern frontend practices, keeping concerns clearly separated, layouts performant, and visual elements highly modular.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🏗️ Directory Blueprint
+```text
+cyberpunk-portfolio/
+├── .env.local                  # Secure Environmental Credentials
+├── next.config.mjs             # Next.js Build & Asset Configurations
+├── tailwind.config.ts          # Cyber-Design Theme Matrix
+├── tsconfig.json               # Type-Safe Enforcements
+└── src/
+    ├── app/                    # Next.js App Router Node Architecture
+    │   ├── layout.tsx          # System Root Shell & Typography Weights
+    │   ├── page.tsx            # Main Viewport Orchestrator 
+    │   ├── providers.tsx       # State & System Animation Context
+    │   ├── sitemap.ts          # Search Engine Visibility Map
+    │   └── api/contact/        # Edge-Safe Secure Comms API Router
+    ├── components/
+    │   ├── ui/                 # Micro-Interactions (Glitch, Button, Neon Card)
+    │   └── sections/           # Macro-Cinematic Scroll Story Nodes
+    ├── hooks/                  # Hardware Performance & Accessibility Mixins
+    ├── lib/                    # Security Sanitisers & Transport Pipelines
+    └── styles/                 # Global Layers & PostCSS Protocols
