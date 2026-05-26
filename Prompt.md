@@ -27,13 +27,13 @@ Requirements for the application to include:
 Task Requirements
 
 Build an end-to-end full-stack developer portfolio app that uses:
-- Next.js 16.2.6 — Next.js App Router with Route Handler for APIs, next/font for font loading, Metadata API for SEO.
-- Framer Motion 12.x — useScroll and useTransform hooks for parallax effect, AnimatePresence for modal transition, staggerChildren for entry animations.
-- Tailwind CSS v4 — use @theme directive to define custom design tokens, without using tailwind.config.js.
-- TypeScript 5.x — Use strict mode, interface defined for all props & API payload.
-- Next.js API Routes — POST Route Handler with rate limiting by IP address using in-memory data structure, no Express.
-- Nodemailer 8.x — Send email using SMTP with 3 retries & console fallback if credentials not provided.
-- MongoDB + Mongoose 9.x — Use globalThis for caching connection, Contact schema with automatic timestamps.
+- Next.js 16.2.6 Next.js App Router with Route Handler for APIs, next/font for font loading, Metadata API for SEO.
+- Framer Motion 12.x useScroll and useTransform hooks for parallax effect, AnimatePresence for modal transition, staggerChildren for entry animations.
+- Tailwind CSS v4  use @theme directive to define custom design tokens, without using tailwind.config.js.
+- TypeScript 5.x  Use strict mode, interface defined for all props & API payload.
+- Next.js API Routes  POST Route Handler with rate limiting by IP address using in-memory data structure, no Express.
+- Nodemailer 8.x  Send email using SMTP with 3 retries & console fallback if credentials not provided.
+- MongoDB + Mongoose 9.x  Use globalThis for caching connection, Contact schema with automatic timestamps.
 
 The app should feature:
 - animation-driven scroll storytelling
