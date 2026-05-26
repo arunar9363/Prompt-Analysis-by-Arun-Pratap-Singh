@@ -208,10 +208,8 @@ It should have:
 - environment variable security
 - correct HTTP status code handling
 
-Store form data in database like:
+Store form data in:
 - MongoDB
-OR 
-- PostgreSQL 
 
 Store: 
 - name 
