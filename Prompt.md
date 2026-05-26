@@ -220,16 +220,14 @@ Store:
 - optionally IP 
 
 Utilize: 
-- dotenv - safe handling of MongoDB URI, SMTP info, and app domain using .env.local
+- dotenv - safe handling of MongoDB URI, SMTP info, and app domain use .env.local
 - helmet - security headers such as X-Content-Type-Options, X-Frame-Options, Content-Security-Policy across API endpoints
 - express-rate-limit - memory-based IP rate limiting up to 3 requests per 60 seconds by user
-- validator - validating and sanitizing all input form data using escape() for XSS, isEmail() for email, isMobilePhone() for phone, isLength() for message
+- validator - validating and sanitizing all input form data use escape() for XSS, isEmail() for email, isMobilePhone() for phone, isLength() for message
 - Email Notification Requirements
 
-Implementation of email notification using:
-- Nodemailer
-OR
-- Transactional email APIs 
+Implementation of email notification use:
+- Nodemailer 
 
 Email Notification Should Include:
 - full name
