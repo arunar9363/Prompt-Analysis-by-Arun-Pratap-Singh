@@ -1,388 +1,367 @@
-Prompt :
+Prompt
 
-Context and Role
+Background and Position
 
-You are a Senior Full-Stack Frontend Architect and a Creative UI Engineer who specializes in cinematic stories through the web experience using the latest Cyberpunk style visuals, motion systems, and production React application.
+As a Senior Full-Stack Frontend Architect & Creative UI Engineer with an expertise in cinematic web storytelling, cyberpunk graphic styling, motion design and animation, and production-ready React applications.
 
-As such, you have been tasked with developing an interactive full-stack web-based "Cyberpunk Developer Storytelling Portfolio". The portfolio will integrate the best of UI engineering, narrative animations through scrolling, and contemporary web performance enhancements.
+Your assignment is to create and build a full-stack “Cyberpunk Developer Storytelling Portfolio”, which will offer an advanced, futuristic interactive experience rather than a regular portfolio website.
 
+This portfolio should lead the user through:
+- identity
+- skills
+- projects
+- experience
+- accomplishments
+- vision and,
+- contact interaction,
 
-The objective is for the portfolio to be futuristic digital experience when viewing the content in this portfolio. 
+via cinematic transitions, neon-style cyberpunk graphics, layered animations, holographic interface designs, and an immersive scroll-based storytelling experience.
 
-It needs to emotionally take the user through various sections including but not limited to: 
-Identity
-Skillset
-Portfolios
-Achievements
-Vision
-Contact interaction
+Requirements for the application to include:
+- responsiveness,
+- accessibility,
+- scalability,
+- front-end architecture,
+- animation optimization, and,
+- back-end security.
+Task Requirements
 
-These elements will use smooth transitions, lighting effects, motion animation, and layering of motion interactions.
+Build an end-to-end full-stack developer portfolio app that uses:
+- React or Next.js
+- Framer Motion
+- Tailwind CSS
+- TypeScript
+- Node.js + Express or Next.js API Routes
+- Nodemailer
+- MongoDB or PostgreSQL
 
-Production-quality features include:
-
-Animation structure
-Accessibility
-Responsive
-Scalability
-Optimized for performance
-Backend security
-Interactive user design
-
-Modern and clean architecture based on frontend engineering principles.
-
-
-PRIMARY OBJECTIVE
-
-Build a comprehensive full-stack cyberpunk developer portfolio website with:
-
-Extensive use of Framer Motion for scroll-based storytelling.
-Immersive transitions between sections.
-Futuristic neon cyberpunk visual aesthetics.
-Responsiveness across all devices.
-A secure contact form with a back-end implementation.
-Real-time notifications of email inquiries to the developer.
-Consistent 60FPS animation performance.
-Production-level accessibility and SEO optimization.
-
-
-VISUAL DESIGN SYSTEM
-
-Design Language:
-Cyberpunk futuristic interface
-Neon glow interface
-Dark sci-fi environment
-Holographic UI design
-Glassmorphic UI design
-Motion based storytelling
-Depth levels of interactivity
-Lighting simulation
-
-Color Palette:
-Neon Cyan
-Electric Purple
-Deep Black
-Hot Pink
-Dark Blue
-Glow Shadows
-
-Typography:
-Futuristic developer typography
-Cinematic large headings
-Motion-based text
-Typography responsive to screen size
-
-Atmosphere:
-Inspired by hacker-lab
-AI-futuristic aesthetic
-Digital city environment
-Immersive cinematics
+The app should feature:
+- animation-driven scroll storytelling
+- cinematic transitions for sections
+- future-themed neon UI for cyberpunk
+- responsive designs
+- modular component system
+- secure contact form system
+- email notifications
+- accessibility considerations
+- SEO capabilities
+- frontend optimization
 
 
-SCROLL STORYTELLING REQUIREMENTS
+Scroll Animation Requirements
 
-Design scroll-based story-telling through Framer motion.
-This should involve:
-Parallax depth system
-Scroll velocity effect
-Staggered reveal animation
-Cinematic section transition
-Opacity dynamic effect
-Motion sequence
-Perspective scale
-Floating Cyberpunk particles
-Gradient animation overlay
-GPU optimized transform
+Apply animations via Framer Motion using:
+- parallax scrolling
+- delayed revelation of elements
+- fade animations
+- movement sequence
+- perspective transformation
+- animated gradient backgrounds
+- cyberpunk particle effects
+- hologram effect
+- optimized transforms
 
-Animations need to:
-Utilize transforms and opacity only
-Prevent layout thrashing
-Provide smooth frame animations
-Have reduced motion support
-Be optimized for lower-power devices
-
-Establish narrative flow between:
-Hero Section
-Revealing Identity
-About Story
-Skill Set Matrix
-Showcase Project Highlights
-Experience History
-Vision Statement
-Contact Info Section
-
-Every individual section should have the experience of being in a different scene within a futuristic digital universe.
-
-REQUIREMENTS FOR HERO SECTION
-
-The hero section should contain:
-Developer introduction animation
-Glitches with text effects
-Interactive typography with motion
-Background cyber-grid animation
-Hologram-style UI elements floating in the background
-Scroll bar animation
-Lighting glow effects
-Interacting buttons
-
-Content included:
-Developer's name
-Title/role description
-Futuristic slogan
-"Explore Projects" button
-"Get in Touch" button
-
-The hero entrance animation needs to be cinematographic.
-
-ABOUT SECTION REQUIREMENTS
-
-Create:
-Animated text reveal
-Bio timeline based on story
-UI cards
-Transitions based on motion
-Holograms in the cyberpunk style
-
-This section needs to describe:
-Journey of developer
-Lover of engineering
-Technical mind
-Philosophy of creation
-
-SKILLS SECTION REQUIREMENTS
-
-Implement a futuristic skill visualization concept:
-Animated progress bar
-Icons of tech in orbit
-Skill cards
-Neon hover state
-Motion effects in UI
-
-Categories needed:
-Frontend
-Backend
-AI/ML
-DevOps
-DB
-Cloud
-UI/UX
-
-Projects section requirements
-
-Implement this:
-Project cards
-Motion transition on hover
-Preview animations
-Lighting interactions
-Scroll-based reveal
-Featured project system
-
-Every project card has to implement:
-Live demo link
-GitHub link
-Technology stack
-Animated project preview
-Efficient media load
+Provide smooth transitions between:
+- Hero Section
+- About Section
+- Skills Section
+- Projects Section
+- Experience Timeline
+- Vision Section
+- Contact Section
+Animations will be required to:
+- use only transform and opacity CSS properties
+- prevent layout thrashing
+- maintain smooth performance at 60FPS
+- accommodate reduced-motion accessibility
+- not affect scroll performance
 
 
-EXPERIENCE TIMELINE
+Requirements for Hero Section
 
-Create animated futuristic experience timeline:
-Vertical transitions
-Scroll-based revealing
-Timeline pulsations
-Animated connecting lines
-Animated neon node interactions
+The Hero section should include:
+- animated developer introduction
+- glitch typography
+- cyber-grid animation for the background
+- holographic floating UI elements
+- cinematic entrance animation
+- interactive CTA buttons
+- scroll indicator animations
 
-Include:
-Experience
-Education
-Achievements
-Certifications
+The following content should be included:
+- developer’s name
+- developer’s role or position
+- futuristic tagline
+- “Explore Projects” button
+- “Get in Touch” button
 
-CONTACT SYSTEM REQUIREMENTS
 
-On click of "Get in Touch":
-Launch animated modal window
-Dynamic blurring of background
-Framer Motion animations on entrance/exit
-Body scroll lock functionality
-Correct focus trapping
-
-Form fields required to include:
-Full Name
-Email
-Phone Number
-Message
-
-Form validation requirements:
-Real-time input validation
-Error state animations
-Accessibility-friendly label elements
-Regex-based input validation
-Inline validation messages
-
-Form submission flow:
-Loading state on submit button
-Success animation sequence
-Failure fallback animation
-Debounced form submission
-
-BACKEND REQUIREMENTS
-
-Use one of these backends:
-Node.js with Express framework OR Next.js API routes
-
-Features:
-Input validation and sanitization
-XSS and injection prevention
-Rate limiting
-Structured logging
-Environment variable protection
-HTTP response validation
-Proper status code usage
-
-Use MongoDB or PostgreSQL to store:
-Full Name
-Email
-Phone Number
-Message
-Time stamp
-Metadata about IP address (optional)
-
-Required npm modules:
-dotenv
-helmet
-express-rate-limit
-Validator library
-
-EMAIL NOTIFICATION SYSTEM
-
-Use Nodemailer or Transactional email API for:
-Sending email from the contact page
-
-Email content required:
-Full Name
-Email
-Phone Number
-Message
-Timestamp
-
-API requirements:
-Environment variable protection
-Secure SMTP service
-Graceful error handling
-Retrying logic in case of failures
-JSON based responses structure
-
-PERFORMANCE OPTIMIZATION
-
-The portfolio must satisfy all of following:
-High Lighthouse performance score
-60FPS animations
-Lazy loading technique
-Dynamic imports
-Optimized images
-Low CLS/LCP values
-Prevent unneeded re-renders
-Memoization when applicable
-Minimalistic bundle size
-
-Animations must never disturb scroll performance.
-
-Animations should never interfere with the ability to scroll smoothly.
-
-ACCESSIBILITY REQUIREMENTS
+Requirements for About Section
 
 Implement:
-Semantic HTML
-ARIA labels
-Keyboard navigation
-Screen reader support
-Focus management
-Reduced motion support
-Compliant color contrast
+- animated text reveal
+- story-based biography timeline
+- floating cyberpunk-themed cards
+- cinematic transitions
+- holographic effects
 
-Make it accessible, without making it ugly.
+This section should contain information about:
+- developer’s journey
+- love for engineering
+- technical approach
+- creative philosophy
 
-SEO REQUIREMENTS
+
+Skills Section Requirements
+
+Futuristic skills visualization system will include:
+- animated progress bars
+- orbiting icons for various technologies
+- neon-colored interactions when hovered
+- interactive skill cards
+- staggered animation reveals
+
+The skill categories should include:
+- Frontend
+- Backend
+- AI/ML
+- DevOps
+- Databases
+- Cloud
+- UI/UX
+
+
+Requirements for Projects Section
 
 Implement:
-Metadata optimization
-Open Graph Tags
-Twitter Cards
-Structured Data
-Sitemap
-Optimized Rendering for SEO
-SEO-friendly HTML
+- cyberpunk projects cards
+- motion interactions when hovered
+- animated projects previews
+- dynamic lighting effects
+- scroll-based reveals
 
-TECHNOLOGY STACK
+Each project card will require:
+- project title
+- technologies used in this project
+- GitHub link to the code
+- live demo link to view the project
+- animated preview modal
 
-Frontend:
-React OR Next.js
-Framer Motion
-Tailwind CSS
-typeScript
+Use lazy loading to speed up rendering.
+Timeline Experience Requirements
 
-Backend:
-Node.js
-Express OR Next.js API Routes
-Nodemailer
+Design a futuristic animation for a timeline to include:
+- vertical motion transitions
+- neon node animations
+- line animations connecting nodes
+- revealing animation on scrolling
+- pulse effect animations for the timeline
 
-Database:
-MongoDB OR PostgreSQL
+Requirements include:
+- work experience details
+- educational background
+- certification details
+- personal achievements
 
-Optional Enhancements:
-Three.js
-GSAP
-Lenis smooth scroll
-React Query
-Zustand
 
-CODE QUALITY REQUIREMENTS
+Contact System Requirements
 
-The code has to be:
-Production-ready
-Modular
-Scalable
-Re-usable
-Typed
-Well-structured
-Easy to maintain
+Clicking the "Get in Touch" button should:
+- trigger an animated modal opening
+- blur background dynamically
+- use Framer Motion to animate the modal entry/exit
+- properly prevent body scroll lock
+- focus trap accessibility properly maintained
 
-Follow:
-Clean Architecture
-Component-based design
-Separation of Concerns
-Re-usable hooks
-Re-usable animations systems
+Form Requirements
+- Full name field
+- Email address
+- Mobile phone number
+- Message text area
 
-OUTPUT REQUIREMENTS
+Requirements include:
+- real-time validation
+- regex validations
+- accessible labels
+- validation message pop-ups
+- animated error states
+- debounced form submissions
+- loading state animation
+- success/failure feedback animations
+Backend API Requirements
+
+The implementation of the secure backend API will be done using:
+- Node.js + Express 
+OR 
+- Next.js API Routes 
+
+It should have:
+- input sanitization 
+- XSS protection
+- injection prevention
+- rate limiting
+- validation middleware 
+- structured logging
+- environment variable security
+- correct HTTP status code handling
+
+Store form data in database like:
+- MongoDB
+OR 
+- PostgreSQL 
+
+Store: 
+- name 
+- email 
+- phone number 
+- message 
+- timestamp 
+- optionally IP 
+
+Utilize: 
+- dotenv
+- helmet 
+- express-rate-limit 
+- validator
+
+
+Email Notification Requirements
+
+Implementation of email notification using:
+- Nodemailer
+OR
+- Transactional email APIs 
+
+Email Notification Should Include:
+- full name
+- email
+- phone number
+- message
+- timestamp
+
+It should:
+- Secure SMTP credentials using environment variables
+- Gracefully handle failures
+- Have retry logic
+- Provide structured JSON response 
+
+Error Handling Requirements
+
+Frontend Error Handling:
+- Manage invalid form submissions elegantly
+- Validate input errors dynamically
+- Provide animated error messages
+- Avoid duplicate form submissions
+- Handle loading states and retries
+- Manage failed API calls appropriately
+- Show fallback error messages to users
+- Prevent frontend crashes caused by broken animations
+
+Backend Error Handling:
+- Validate all received requests
+- Send formatted JSON error response
+- Handle database connection errors
+- Gracefully handle email failures
+- Log server errors securely
+- Ensure sensitive errors do not leak out
+- Use HTTP status codes properly
+- Create a central error handling middleware
+
+Format of an API Error Response:
+- success property
+- error message
+- validation info
+- timestamp
+- HTTP status code
+
+Reliability of System:
+- Do not allow application crashes
+- Ensure frontend remains responsive in the event of errors
+- Implement retry functionality in case email fails
+- Enable graceful fallback in case an optional service fails
+- Guard against malformed data and unforeseen exceptions
+
+Performance Requirements
+
+Ensure good performance by optimizing the application with respect to:
+- high Lighthouse score
+- 60fps animations
+- lazy loading
+- dynamic imports
+- optimized images
+- minimized CLS/LCP 
+- minimizing unnecessary re-renders
+- scalability of front-end rendering 
+- minimized bundle size
+Animations should never impact scroll smoothness.
+
+
+Requirements for Accessibility
+
+Implement:
+- semantic HTML
+- ARIA labels
+- keyboard navigation
+- screen reader compatibility
+- focus management
+- reduced-motion accessibility
+- color contrast requirements
+
+
+Requirements for SEO Optimization
+
+Implement:
+- metadata optimizations
+- Open Graph tags
+- Twitter card markup
+- structured data
+- sitemap integration
+- semantic HTML for SEO optimization
+
+
+Requirements for Code Quality
+
+The code should be:
+- modular
+- reusable
+- scalable
+- production-ready
+- type-safe
+- maintainable
+- structured well
+
+Adhere to:
+- component-driven architecture
+- separation of concerns
+- reusable hooks
+- reusable animation systems
+- good frontend engineering practices
+
+
+Requirements for Output
 
 Create:
-Full folder structure
-Frontend architecture
-Backend architecture
-Re-usable components
-Framer Motion animations system
-Responsive layouts
-     API
-Database schema
-Environment variables
-Deployment process
-Accessibility considerations
-Performance optimization consideration
-Security considerations
-SEO implementation
-Deployment process
+- folder structure
+- frontend architecture
+- backend architecture
+- reusable components
+- Framer Motion animations
+- responsive layout designs
+- API development
+- database schema
+- environment variables setup
+- deployment process
+- accessibility guidelines
+- performance optimizations
+- security measures
+- SEO implementation
 
-FINAL EXPECTATION
 
-Final outcome should have:
-Futuristic Cinematic Developer Experience Feel
-Interactive Cyberpunk Storytelling Feel
-Awards-winning Production-ready Portfolio Feel
+Final Product Expectations
 
-It should look and act premium developer portfolio rather than generic template.
-
+The final product should deliver:
+- an experience like a cinematic futuristic development environment
+- an immersive cyberspace narrative creation platform
+- a high-end production portfolio
+- an award-winning interactive experience
 
