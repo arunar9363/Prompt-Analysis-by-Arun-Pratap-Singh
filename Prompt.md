@@ -190,10 +190,13 @@ Requirements include:
 - success/failure feedback animations
 Backend API Requirements
 
-The implementation of the secure backend API will be done using:
-- Node.js + Express 
-OR 
-- Next.js API Routes 
+The secure backend API implementation shall include:
+
+- Next.js API Routes — serverless POST request route, don’t need an extra Express server
+- IP rate limiting using in-memory storage — up to 3 requests per minute per IP
+- Input validation — XSS and injection protection for all form input fields
+- MongoDB and Mongoose — save name, email, phone number, message, IP, and timestamp
+- Nodemailer — SMTP mail service, send a notification email on each successful form submission
 
 It should have:
 - input sanitization 
