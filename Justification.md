@@ -1,5 +1,5 @@
-Likert Score - 6
-Conclusion
+Justification
+
 Response B is better than response A. response B provides a completely operationalizable production system with consistent nomenclature and syntax, whereas Response A has several critical flaws that 
 make it impossible to implement as is. Response B successfully uses a staggered approach as i * 0.1, whereas Response A employs a broken formula i 0.1 that generates an error at runtime. Response B is
 consistent in its use of environment variables (EMAIL_USER, EMAIL_PASS, EMAIL_TO) in both .env.local and route.ts files, whereas Response A incorrectly uses EMAILUSER/EMAILPASS in .env and EMAIL_USER/EMAIL_PASS in the 
