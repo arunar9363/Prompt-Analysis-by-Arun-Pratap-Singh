@@ -122,13 +122,13 @@ Futuristic skills visualization system will include:
 - staggered animation reveals
 
 The skill categories should include:
-- Frontend
-- Backend
-- AI/ML
-- DevOps
-- Databases
-- Cloud
-- UI/UX
+- Front-end: React.js / Next.js, TypeScript, Tailwind CSS, Framer Motion, HTML5, CSS3
+- Back-end: Node.js, Express.js, Next.js API Routes, RESTful APIs, GraphQL
+- AI/ML: Large Language Model Integration (Groq, Gemini), Prompt Engineering, Vector Databases, AI Agent Orchestration
+- DevOps: Git, GitHub, Docker, CI/CD Pipelines, Vercel Deployment
+- Databases: MongoDB, Mongoose, PostgreSQL, Prisma
+- Cloud Services: Vercel, Render, AWS basics, GoDaddy Domains
+- UI/UX: Figma, Responsive Design, Accessibility (AR
 
 
 Requirements for Projects Section
