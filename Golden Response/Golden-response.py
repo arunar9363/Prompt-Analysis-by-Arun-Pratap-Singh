@@ -1,14 +1,11 @@
 """
-================================================================================
  CyberPortfolio Enterprise Production Blueprint — Golden Reference Implementation
-================================================================================
  Architecture : Full-Stack Cyberpunk Developer Storytelling Portfolio
  Author       : Golden Benchmark Reference
  Stack        : Next.js 14 + Framer Motion + Tailwind CSS + TypeScript
                 Node.js API Routes + Nodemailer + PostgreSQL
  Python       : 3.10+  (blueprint generator / scaffold runner)
  Dependencies : streamlit, openai, python-dotenv, jinja2, pathlib
-================================================================================
 
  Project Layout (single-file consolidation):
    Section 1  — Config           (env-driven, validated)
@@ -22,12 +19,9 @@
  Usage:
    pip install streamlit openai python-dotenv jinja2
    streamlit run golden_response.py
-================================================================================
 """
 
-# ─────────────────────────────────────────────────────────────────────────────
 # Standard Library
-# ─────────────────────────────────────────────────────────────────────────────
 import io
 import json
 import logging
@@ -38,17 +32,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Generator
 
-# ─────────────────────────────────────────────────────────────────────────────
 # Third-Party
-# ─────────────────────────────────────────────────────────────────────────────
 import streamlit as st
 from dotenv import load_dotenv
 from openai import OpenAI
 
 
-# ══════════════════════════════════════════════════════════════════════════════
 # SECTION 1 — CONFIGURATION
-# ══════════════════════════════════════════════════════════════════════════════
 
 load_dotenv()
 
